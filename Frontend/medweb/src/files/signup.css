@@ -1,0 +1,89 @@
+
+.signup-container {
+  background-color: rgb(255, 255, 255);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/src/assets/bgsignup.jpg');
+}
+.sptitle{
+  font-family: 'Raleway-Regular';
+  font-size: 50px;
+  margin-left: -1200px;
+  color: rgb(255, 255, 255);
+}
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: -1200px;
+    font-weight: 400;
+    color: white;
+    padding: 30px;
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /*background-image: url('/src/assets/cursor-new.png');*/
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: auto;
+    height: 30px;
+    border-radius: 05px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 18px;
+    border: solid 2px grey;
+  }
+  .back{
+    width: 150px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 60px;
+    padding: 10px 20px;
+    font-size: 28px;
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -52px;
+    margin-left: 200px;
+    font-family: 'Raleway-Regular';
+  }
+
+  .spbutton {
+    width: 150px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 60px;
+    padding: 10px 20px;
+    font-size: 28px;
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 0px;
+    font-family: 'Raleway-Regular';
+  }
+  
+  button:hover {
+    background-color: #0080f3;
+  }
+  @font-face {
+    font-family: 'Raleway-Regular';
+    src: url('/src/fonts/Raleway-Bold.ttf');
+  }
